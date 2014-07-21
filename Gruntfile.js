@@ -66,6 +66,7 @@ module.exports = function (grunt) {
 		ensureEnvironmentVariable("CATAPULT_API_PORT", 5050);
 		ensureEnvironmentVariable("CATAPULT_API_HOST", "localhost");
 		ensureEnvironmentVariable("CATAPULT_USER_ID", "u-user1");
+		ensureEnvironmentVariable("CATAPULT_API_USER", "u-user1");
 		ensureEnvironmentVariable("CATAPULT_API_TOKEN", "t-token1");
 		ensureEnvironmentVariable("CATAPULT_API_SECRET", "secret");
 
