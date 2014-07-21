@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - '0.11'
+  - '0.10'
+deploy:
+  provider: npm
+  email: incubator@bandwidth.com
+  api_key:
+    secure: "Eq8mINVnKknPNY70b3U2dTx70B3umA0YJKqswgWMS7M2zFYM1MoetTkZ2XmA56uY87A1iQZSBWkdgLNwu9qNWVU/Ejr9Jl47q3b9oQJx3XnSulWvEVk6MRpUXzUvmde06wFVkNH2Bh52WPxULA/j6oPv9Z15MWZL9YpxOAw/VD8="
+  on:
+    repo: inetCatapult/catapult-mock
+    branch: master
