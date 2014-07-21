@@ -2,7 +2,6 @@
   "name": "catapult-mock",
   "description": "Catapult Mock app",
   "version": "0.0.2",
-  "private": true,
   "main": "catapult-app.js",
   "scripts": {
     "test": "grunt"
