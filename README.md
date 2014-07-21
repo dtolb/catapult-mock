@@ -1,5 +1,8 @@
-Catapult Mock [![Build Status](https://travis-ci.org/inetCatapult/catapult-mock.svg?branch=master)](https://travis-ci.org/inetCatapult/catapult-mock)
+Catapult Mock 
 
+[![Build Status](https://travis-ci.org/inetCatapult/catapult-mock.svg?branch=master)](https://travis-ci.org/inetCatapult/catapult-mock)
+
+Basic API mock for Bandwidth's Catapult Application:  https://catapult.inetwork.com/pages/home.jsf
 ---
 
 Example Required Environment Variables:
