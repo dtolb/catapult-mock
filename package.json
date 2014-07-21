@@ -1,7 +1,7 @@
 {
   "name": "catapult-mock",
   "description": "Catapult Mock app",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "main": "catapult-app.js",
   "scripts": {
     "test": "grunt"
