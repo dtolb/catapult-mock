@@ -9,7 +9,7 @@ Basic API mock for Bandwidth's Catapult Application:  https://catapult.inetwork.
 
 Example Required Environment Variables:
 
-	CONSOLE_LOG_LEVEL = "info"
+	CONSOLE_LEVEL = "info"
 	CATAPULT_API_PORT = 5050
 	CATAPULT_API_HOST = "localhost"
 	CATAPULT_API_USER = "u-user1"

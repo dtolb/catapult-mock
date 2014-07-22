@@ -62,7 +62,7 @@ module.exports = function (grunt) {
 			process.env[name] = process.env[name] || defaultValue;
 		}
 
-		ensureEnvironmentVariable("CONSOLE_LOG_LEVEL", "info");
+		ensureEnvironmentVariable("CONSOLE_LEVEL", "info");
 		ensureEnvironmentVariable("CATAPULT_API_PORT", 5050);
 		ensureEnvironmentVariable("CATAPULT_API_HOST", "localhost");
 		ensureEnvironmentVariable("CATAPULT_USER_ID", "u-user1");
