@@ -1,11 +1,11 @@
-var express = require("express");
+var express    = require("express");
 var bodyParser = require("body-parser");
-var winston = require("winston");
-var moment = require("moment");
-var Q = require("q");
+var winston    = require("winston");
+var moment     = require("moment");
+var Q          = require("q");
 
 var Catapult = require("./lib/catapult-mock");
-var config = require("./lib/catapult-config");
+var config   = require("./lib/catapult-config");
 
 var app = express();
 var consoleLogLevel = config.log.consoleLevel;
