@@ -1,7 +1,8 @@
-Catapult Mock 
+Catapult Mock [![Build Status](https://travis-ci.org/inetCatapult/catapult-mock.svg?branch=master)](https://travis-ci.org/inetCatapult/catapult-mock)
 ---
 
-[![Build Status](https://travis-ci.org/inetCatapult/catapult-mock.svg?branch=master)](https://travis-ci.org/inetCatapult/catapult-mock)
+[![Dependencies Status](https://david-dm.org/inetCatapult/catapult-mock.png)](https://david-dm.org/inetCatapult/catapult-mock)
+[![DevDependencies Status](https://david-dm.org/inetCatapult/catapult-mock/dev-status.png)](https://david-dm.org/inetCatapult/catapult-mock#info=devDependencies)
 
 Basic API mock for Bandwidth's Catapult Application:  https://catapult.inetwork.com/pages/home.jsf
 
