@@ -1,8 +1,12 @@
 {
   "name": "catapult-mock",
   "description": "Catapult Mock app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "catapult-app.js",
+  "repository" : {
+    "type" : "git",
+    "url"  : "https://github.com/inetCatapult/catapult-mock"
+  },
   "scripts": {
     "test": "grunt"
   },
@@ -28,6 +32,8 @@
     "mocha": "~1.20.0",
     "nock": "^0.42.1",
     "supertest": "^0.13.0",
-    "supertest-as-promised": "~1.0.0"
+    "supertest-as-promised": "~1.0.0",
+    "require-all": "^0.0.8",
+    "coveralls" : "^2.11.1"
   }
 }
