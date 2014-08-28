@@ -37,10 +37,16 @@ module.exports = function (grunt) {
 		mocha_istanbul : {
 		/* jshint camelcase: true */
 			coverage : {
-				src : "test/specs"
-			},
-			options  : {
-				reporter : "spec"
+				src     : "test/specs", // the folder, not the files
+				options : {
+					coverage : true,
+					reporter : "spec",
+					check    : {
+						lines      : 75,
+						statements : 75
+					},
+					root     : "./lib"
+				}
 			}
 		},
 
@@ -55,6 +61,15 @@ module.exports = function (grunt) {
 		},
 
 		clean : [ "coverage", "test/temp" ]
+	});
+
+	grunt.event.on("coverage", function (lcov, done) {
+		require("coveralls").handleInput(lcov, function (err) {
+			if (err) {
+				return done(err);
+			}
+			done();
+		});
 	});
 
 	grunt.registerTask("setupEnvironment", [], function () {

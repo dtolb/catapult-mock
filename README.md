@@ -3,6 +3,7 @@ Catapult Mock [![Build Status](https://travis-ci.org/inetCatapult/catapult-mock.
 
 [![Dependencies Status](https://david-dm.org/inetCatapult/catapult-mock.png)](https://david-dm.org/inetCatapult/catapult-mock)
 [![DevDependencies Status](https://david-dm.org/inetCatapult/catapult-mock/dev-status.png)](https://david-dm.org/inetCatapult/catapult-mock#info=devDependencies)
+[![Coverage Status](https://img.shields.io/coveralls/inetCatapult/catapult-mock.svg)](https://coveralls.io/r/inetCatapult/catapult-mock)
 
 Basic API mock for Bandwidth's Catapult Application:  https://catapult.inetwork.com/pages/home.jsf
 
